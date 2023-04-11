@@ -43,7 +43,7 @@ let que_count = 0;
 let que_numb = 1;
 let counter;
 let counterLine;
-let timeValue = 15;
+let timeValue = 10;
 let widthValue = 0;
 let userScore = 0;
 
@@ -66,6 +66,9 @@ next_btn.onclick = ()=>{
     clearInterval(counter);
     startTimer(timeValue);
     clearInterval(counterLine);
+        
+        
+        
     startLine(widthValue);
     next_btn.style.display = "none";
     timeOff.textContent = "Time Left";
