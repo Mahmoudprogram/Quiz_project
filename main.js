@@ -183,7 +183,7 @@ function startTimer(time){
             timeCount.textContent = "00";
             timeOff.textContent = "Time Off";
 
-            let correctAns = questios[que_count].answer;
+            let correctAns = questios[playerState][que_count].answer;
             let allOption = option_list.children.length;
 
             for(let i = 0; i < allOption; i++ ){
