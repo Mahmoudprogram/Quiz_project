@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <select class="simple" name="animations" id="animations">
+            <option value=0>Liksion One</option>
+            <option value=1>Neco A2</option>
+            
+        </select>
+    
+    </div>
+    <!--
+    <div class="ma ">
+        <p class="cursor typewriter-animation">Hi there, I'm a Mahmoud </p>
+    </div>
+    -->
+    <!--Start Quiz Button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+    
+
+     <!--Info Box -->
+     <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of this Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, you can't reselect.</div>
+            <div class="info">3. You can't select any option once time goes off. </div>
+            <div class="info">4. you can't exit from the quiz while you are playing.</div>
+            <div class="info">5. You will get point on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+     </div>
+
+     <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="timer_text"> Time Left</div>
+                 <div class="timer_sec">15</div>     
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>What does Html stand for?</span> -->
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+                <!-- <span><p>2</p>of<p>5</p>Question</span> -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+     </div>
+
+     <!-- Result Box-->
+     <div class="result_box">
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- <span>and sorry,you got only <p>2</p> out of <p>5</p></span> -->
+        </div>
+        <div class="buttons">
+            <button class="quit">Quit Quiz</button>
+        </div>
+     </div>
+     <script src="main.js"></script>
+     <script src="questions.js"></script>
+</body>
+</html>
